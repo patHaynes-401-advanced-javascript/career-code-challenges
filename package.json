@@ -1,0 +1,23 @@
+{
+  "name": "career-code-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patHaynes-401-advanced-javascript/career-code-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patHaynes-401-advanced-javascript/career-code-challenges/issues"
+  },
+  "homepage": "https://github.com/patHaynes-401-advanced-javascript/career-code-challenges#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
