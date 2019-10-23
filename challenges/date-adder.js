@@ -12,9 +12,6 @@ function add(date, diff) {
   if(operator === 'm') answer = new Date(date.setMonth(date.getMonth() + numberDifference));
   if(operator === 'y') answer = new Date(date.setFullYear(date.getFullYear() + numberDifference));
 
-
-
-
   return answer;
 }
 
