@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571792276829" clover="3.2.0">
-  <project timestamp="1571792276829" name="All files">
+<coverage generated="1571845889858" clover="3.2.0">
+  <project timestamp="1571845889858" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1" elements="26" coveredelements="26" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="date-adder.js" path="/Users/pathaynes/alchemy/career-track/career-code-challenges/challenges/date-adder.js">
       <metrics statements="11" coveredstatements="11" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
