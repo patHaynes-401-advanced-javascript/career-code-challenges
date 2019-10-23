@@ -9,11 +9,8 @@ function add(date, diff) {
   if(operator === 'h') answer = new Date(date.setHours(date.getHours() + numberDifference));
   if(operator === 'd') answer = new Date(date.setDate(date.getDate() + numberDifference));
   if(operator === 'w') answer = new Date(date.setDate(date.getDate() + numberDifference * 7));
-  if(operator === 'm') answer = new Date(date.setMonth(date.getMonth() + numberDifference));
+  if(operator === 'M') answer = new Date(date.setMonth(date.getMonth() + numberDifference));
   if(operator === 'y') answer = new Date(date.setFullYear(date.getFullYear() + numberDifference));
-
-
-
 
   return answer;
 }
