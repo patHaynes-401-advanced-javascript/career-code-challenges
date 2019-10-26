@@ -55,16 +55,25 @@ describe('checks to see if set class works', () => {
   });
 
   //static methods
-  it.skip('takes two sets, returns a new set with the intersection of those sets', () => {
-
+  it('takes two sets, returns a new set with the intersection of those sets', () => {
+    const set1 = new Set([1, 2, 3]);
+    const set2 = new Set([2, 3, 6]);
+    const answer = Set.intersection(set1, set2);
+    expect(answer.array).toEqual([2, 3]);
   });
 
-  it.skip('takes two sets, returns a new set with the union of those sets', () => {
-
+  it('takes two sets, returns a new set with the union of those sets', () => {
+    const set1 = new Set([1, 2, 3]);
+    const set2 = new Set([2, 3, 6]);
+    const answer = Set.union(set1, set2);
+    expect(answer.array).toEqual([1, 2, 3, 6]);
   });
 
-  it.skip('takes two sets, and returns a new set with the difference of those sets', () => {
-
+  it('takes two sets, and returns a new set with the difference of those sets', () => {
+    const set1 = new Set([1, 2, 3]);
+    const set2 = new Set([2, 3, 6]);
+    const answer = Set.difference(set1, set2);
+    expect(answer.array).toEqual([1, 6]);
   });
 
 });

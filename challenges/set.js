@@ -40,7 +40,7 @@ class Set {
   difference(set) {
     const newSet = new Set([]);
     for(let i = 0; i < this.array.length; i++) {
-      if(!this.set.includes(this.array[i]))
+      if(!set.array.includes(this.array[i]))
         newSet.add(this.array[i]);
     }
     for(let j = 0; j < set.array.length; j++) {
